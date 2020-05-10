@@ -3,10 +3,7 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
-project ("MiscProblems")
+project ("DesignPatterns")
 
 # Include sub-projects.
-add_subdirectory ("DeathBirth")
-add_subdirectory ("FisherYatesShuffle")
-add_subdirectory ("GCD")
-add_subdirectory ("TicTac")
+add_subdirectory ("FactoryMethod")

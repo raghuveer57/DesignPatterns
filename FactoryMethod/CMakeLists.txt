@@ -4,6 +4,6 @@
 cmake_minimum_required (VERSION 3.8)
 
 # Add source to this project's executable.
-add_executable (TicTac "TicTac.cpp" "TicTac.h")
+add_executable (FactoryMethod "main.cpp")
 
 # TODO: Add tests and install targets if needed.
