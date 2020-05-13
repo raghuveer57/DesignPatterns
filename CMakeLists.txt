@@ -7,3 +7,4 @@ project ("DesignPatterns")
 
 # Include sub-projects.
 add_subdirectory ("FactoryMethod")
+add_subdirectory ("AbstractFactory")
