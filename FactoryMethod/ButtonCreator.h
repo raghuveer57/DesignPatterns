@@ -5,40 +5,29 @@
 
 using namespace std;
 
-// This consists of factor interface class and concrete factories implementing the factory interface.
+// This file consists of factory(creator) interface class and all the concrete factory classes implementing the factory interface.
 // Abstract class for Buttons.
 class ButtonCreator
 {
-protected:
-    Button *button;
-
 public:
-    virtual void CreateButton() = 0; //  pure virtual functions to make this class abstract(interface)
-    virtual void DrawButton()
-    {
-        if (button)
-            button->DrawButton();
-    }
-    virtual ~ButtonCreator()
-    {
-        if (button)
-        {
-            delete button;
-        }
-    }
+    //This is the creator method that needs to be implemented by the concrete classes.
+    virtual Button *CreateButton() = 0;
+    virtual ~ButtonCreator(){}
 };
 
 // A concrete class that implements the button in windows platform.
 class WinButtonCreator : public ButtonCreator
 {
 public:
-    virtual void CreateButton()
+    virtual Button *CreateButton()
     {
-        button = new WinButton();
+        // A windows button is created
+        // Button should be deleted after the usage
+        return new WinButton();
     }
     virtual ~WinButtonCreator()
     {
-        cout << "Windows Button creator destructor" << endl;
+        cout << "Deleting the windows button creator instance" << endl;
     }
 };
 
@@ -46,12 +35,14 @@ public:
 class MacButtonCreator : public ButtonCreator
 {
 public:
-    virtual void CreateButton()
+    virtual Button *CreateButton()
     {
-        button = new MacButton();
+        // A windows button is created
+        // Button should be deleted after the usage
+        return new MacButton();
     }
     virtual ~MacButtonCreator()
     {
-        cout << "MacOS Button creator destructor" << endl;
+        cout << "Deleting the Mac button creator instance" << endl;
     }
 };

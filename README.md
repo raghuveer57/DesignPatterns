@@ -1,2 +1,2 @@
-# MiscProblems
-Repo where problems and solutions to those problems are stored.
+# Design Patterns
+Example code implemenation of the Design Patterns.
