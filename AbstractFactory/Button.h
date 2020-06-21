@@ -5,7 +5,7 @@
 using namespace std;
 
 // This consists of product interface class and concrete products implementing the product interface.
-// Abstract class for Buttons.
+// Abstract class for Buttons(Button Interface).
 class Button
 {
 public:
@@ -13,17 +13,13 @@ public:
     virtual ~Button() {}
 };
 
-// A concrete class that implements the button in windows platform.
+// A concrete class that implements the button interface in the windows platform.
 class WinButton : public Button
 {
 public:
     void DrawButton()
     {
         cout << "Windows Button -> Draw() call" << endl;
-    }
-    virtual ~WinButton()
-    {
-        cout << "Deleting the actual windows button" << endl;
     }
 };
 
@@ -34,9 +30,5 @@ public:
     void DrawButton()
     {
         cout << "MacOS Button -> Draw() call" << endl;
-    }
-    virtual ~MacButton()
-    {
-        cout << "Deleting the actual MacOS button" << endl;
     }
 };

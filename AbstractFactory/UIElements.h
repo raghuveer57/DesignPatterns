@@ -10,57 +10,36 @@ using namespace std;
 // Abstract class for UIElements.
 class UIElements
 {
-protected:
-    Button *button;
-    Slider *slider;
-
 public:
-    virtual void CreateUIElements() = 0; //  pure virtual function to make this class abstract(interface)
-    virtual void DrawButton()
-    {
-        if (button)
-            button->DrawButton();
-    }
-    virtual void DrawSlider()
-    {
-        if (slider)
-            slider->DrawSlider();
-    }
-    virtual ~UIElements()
-    {
-        if (button)
-            delete button;
-        if(slider)
-            delete slider;
-    }
+    virtual Button *CreateButton() = 0;
+    virtual Slider *CreateSlider(Button *button) = 0;
+    virtual ~UIElements() {}
 };
 
-// A concrete class that implements the UIElements in windows platform.
+// A concrete class that implements the creation of button and slider in windows platform.
 class WinUIElements : public UIElements
 {
 public:
-    virtual void CreateUIElements()
+    virtual Button *CreateButton() //Creates a new windows button
     {
-        button = new WinButton();
-        slider = new WinSlider(button);
+        return new WinButton();
     }
-    virtual ~WinUIElements()
+    virtual Slider *CreateSlider(Button *button) //Creates a new windows slider
     {
-        cout << "Windows UIElements destructor" << endl;
+        return new WinSlider(button);
     }
 };
 
-// A concrete class that implements the button in macOS platform.
+// A concrete class that implements the creation of button and slider in macOS platform.
 class MacUIElements : public UIElements
 {
 public:
-    virtual void CreateUIElements()
+    virtual Button *CreateButton() //Creates a new MAC button
     {
-        button = new MacButton();
-        slider = new MacSlider(button);
+        return new MacButton();
     }
-    virtual ~MacUIElements()
+    virtual Slider *CreateSlider(Button *button) //Creates a new MAC slider
     {
-        cout << "MacOS UIElements destructor" << endl;
+        return new MacSlider(button);
     }
 };

@@ -10,10 +10,10 @@ using namespace std;
 class Slider
 {
 protected:
-    Button *button;
+    Button *button; // we keep a reference of a button since a button is required to create the slider
 
 public:
-    Slider(Button *btn) // Slider are created with buttons 
+    Slider(Button *btn) // Slider is created using buttons
     {
         button = btn;
     }
@@ -31,7 +31,6 @@ public:
         cout << "Creating a Slider with ";
         button->DrawButton();
     }
-    virtual ~WinSlider() {}
 };
 
 // A concrete class that implements the slider in macOS platform.
@@ -44,5 +43,4 @@ public:
         cout << "Creating a Slider with ";
         button->DrawButton();
     }
-    virtual ~MacSlider() {}
 };

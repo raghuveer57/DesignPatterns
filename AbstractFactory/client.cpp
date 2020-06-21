@@ -17,24 +17,28 @@ UIElements *CreateUIElements()
         return nullptr;
 }
 
+// Client method that uses the
 void Client(UIElements *creator)
 {
     //Client does not know about creator class
     //Adding a new creator subclass does not effect the Client code
-    creator->CreateUIElements();
-    creator->DrawButton();
-    creator->DrawSlider();
+    Button *button = creator->CreateButton();
+    Slider *slider = creator->CreateSlider(button);
+    button->DrawButton();
+    slider->DrawSlider();
+    delete slider;
+    delete button;
 }
 
 int main()
 {
     // Default config is Windows.
-    UIElements *UIElements = CreateUIElements(); // A windows button is created
+    UIElements *UIElements = CreateUIElements(); // windows UIElements are created
     Client(UIElements);
     delete UIElements;
 
-    config = "MacOS";                      // change the config to MacOS
-    UIElements = CreateUIElements(); //A Mac button is created
+    config = "MacOS";                // change the config to MacOS
+    UIElements = CreateUIElements(); //Mac UIElements are created
     Client(UIElements);
     delete UIElements;
 }
