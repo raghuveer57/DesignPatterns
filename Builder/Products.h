@@ -31,7 +31,7 @@ public:
     void setEngine(char *engineName)
     {
         cout << "Setting the engine to " << engineName << " in the CAR" << endl;
-        sModelName = engineName;
+        sEngine = engineName;
     }
 
     void setModelName(char *modelName)
@@ -77,7 +77,7 @@ public:
     void setEngine(char *engineName)
     {
         cout << "Setting the engine to " << engineName << " in the CAR MANUAL" << endl;
-        sModelName = engineName;
+        sEngine = engineName;
     }
 
     void setModelName(char *modelName)
