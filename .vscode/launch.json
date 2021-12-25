@@ -63,6 +63,18 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb"
+        },
+        {
+            "name": "Adapter",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Adapter/Adapter",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
         }
     ]
 }
