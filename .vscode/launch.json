@@ -1,0 +1,68 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Singleton",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Singleton/Singleton",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        },
+        {
+            "name": "Prototype",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Prototype/Prototype",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        },
+        {
+            "name": "AbstractFactory",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/AbstractFactory/AbstractFactory",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        },
+        {
+            "name": "Builder",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Builder/Builder",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        },
+        {
+            "name": "FactoryMethod",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/FactoryMethod/FactoryMethod",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        }
+    ]
+}

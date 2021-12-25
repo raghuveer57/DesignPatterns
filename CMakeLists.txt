@@ -4,6 +4,8 @@
 cmake_minimum_required (VERSION 3.8)
 add_compile_options(-std=c++11)
 
+set(CMAKE_BUILD_TYPE Debug)
+
 project ("DesignPatterns")
 
 # Include sub-projects.

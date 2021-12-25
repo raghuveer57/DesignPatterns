@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -30,7 +31,7 @@ public:
         return instance;
     }
 
-    void runQuery(char *query)
+    void runQuery(string query)
     {
         cout << "Running " << query << " in the database" << endl;
     }
