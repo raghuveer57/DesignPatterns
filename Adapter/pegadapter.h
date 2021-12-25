@@ -2,7 +2,7 @@
 #include "pegs.h"
 #include "math.h"
 
-//Adapter class implemting multiple inheritance to bridge between the two interfaces
+//Adapter class implementing multiple inheritance to bridge between the two interfaces
 class PegAdapter : public RoundPeg, public SquarePeg
 {
 public:
