@@ -75,6 +75,18 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb"
+        },
+        {
+            "name": "Bridge",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Bridge/Bridge",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
         }
     ]
 }
