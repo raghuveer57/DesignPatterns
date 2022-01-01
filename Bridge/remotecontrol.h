@@ -24,22 +24,22 @@ public:
     virtual void volumeUp()
     {
         deviceptr->setVolume(deviceptr->getVolume() + 1);
-        cout << "Volume is increased to " << deviceptr->getVolume() << endl;
+        cout << deviceptr->getName() << " Volume is increased to " << deviceptr->getVolume() << endl;
     }
     virtual void volumeDown()
     {
         deviceptr->setVolume(deviceptr->getVolume() - 1);
-        cout << "Volume is decreased to " << deviceptr->getVolume() << endl;
+        cout << deviceptr->getName() << " Volume is decreased to " << deviceptr->getVolume() << endl;
     }
     virtual void channelUp()
     {
         deviceptr->setChannel(deviceptr->getChannel() + 1);
-        cout << "Channel is increased to " << deviceptr->getChannel() << endl;
+        cout << deviceptr->getName() << " Channel is increased to " << deviceptr->getChannel() << endl;
     }
     virtual void channelDown()
     {
         deviceptr->setChannel(deviceptr->getChannel() - 1);
-        cout << "Channel is increased to " << deviceptr->getChannel() << endl;
+        cout << deviceptr->getName() << " Channel is increased to " << deviceptr->getChannel() << endl;
     }
 };
 
@@ -51,7 +51,7 @@ public:
     virtual void mute()
     {
         deviceptr->setVolume(0);
-        cout << "Volume is muted. "
+        cout << deviceptr->getName() <<" Volume is muted. "
              << "Now the volume is " << deviceptr->getVolume() << endl;
     }
 };
