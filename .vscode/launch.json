@@ -87,6 +87,18 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb"
+        },
+        {
+            "name": "Composite",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Composite/Composite",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
         }
     ]
 }
