@@ -99,6 +99,18 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb"
+        },
+        {
+            "name": "Decorator",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Decorator/Decorator",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
         }
     ]
 }
