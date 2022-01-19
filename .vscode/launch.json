@@ -111,6 +111,18 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb"
+        },
+        {
+            "name": "Facade",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Facade/Facade",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
         }
     ]
 }
