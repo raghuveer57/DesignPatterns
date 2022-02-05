@@ -123,6 +123,18 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb"
+        },
+        {
+            "name": "Flyweight",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Flyweight/Flyweight",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
         }
     ]
 }
