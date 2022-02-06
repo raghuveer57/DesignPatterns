@@ -135,6 +135,18 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb"
+        },
+        {
+            "name": "Proxy",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Proxy/Proxy",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
         }
     ]
 }
