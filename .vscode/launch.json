@@ -159,6 +159,19 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb"
+        },
+        {
+            "name": "Command",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Command/Command",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
         }
+
     ]
 }
