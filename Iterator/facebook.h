@@ -10,7 +10,7 @@ class FaceBook  : public SocialNetwork
 public:
     FaceBook(shared_ptr<Profile> profile) : SocialNetwork(profile) {}
 
-    // Factory methods for iterators
+    // Factory methods for creating iterators
     unique_ptr<ProfileIterator> createFriendsIterator() override
     {
         return make_unique<FacebookIterator>( make_unique<FaceBook>(*this),"friends");
