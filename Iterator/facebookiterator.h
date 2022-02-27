@@ -5,8 +5,9 @@
 
 using namespace std;
 
-// Interface that should be followed by
-// all the iterator classes
+// Concrete facebook iterator class that implements
+//the profile iterator interface and has the logic 
+// to go over the friends and co-workers collection.
 class FacebookIterator : public ProfileIterator
 {
 private:
@@ -16,6 +17,7 @@ private:
     int noOfElements;
 
 public:
+    // the constructor takes the Social Network pointer and the iterator type
     explicit FacebookIterator(shared_ptr<SocialNetwork> network, string type) : myNetwork(network), iteratorType(type), currentIndex(-1)
     {
         if (iteratorType == "friends")
