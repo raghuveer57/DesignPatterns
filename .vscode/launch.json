@@ -183,6 +183,18 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb"
+        },
+        {
+            "name": "Mediator",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Mediator/Mediator",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
         }
 
     ]

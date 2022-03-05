@@ -24,4 +24,5 @@ add_subdirectory("Proxy")
 add_subdirectory("COR")
 add_subdirectory("Command")
 add_subdirectory("Iterator")
+add_subdirectory("Mediator")
 
