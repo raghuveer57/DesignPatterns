@@ -195,6 +195,18 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb"
+        },
+        {
+            "name": "Memento",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Memento/Memento",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
         }
 
     ]
