@@ -207,6 +207,18 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb"
+        },
+        {
+            "name": "Observer",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Observer/Observer",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
         }
 
     ]

@@ -26,4 +26,6 @@ add_subdirectory("Command")
 add_subdirectory("Iterator")
 add_subdirectory("Mediator")
 add_subdirectory("Memento")
+add_subdirectory("Observer")
+
 
