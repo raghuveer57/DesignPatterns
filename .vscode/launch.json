@@ -231,6 +231,18 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb"
+        },
+        {
+            "name": "Strategy",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Strategy/Strategy",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
         }
 
     ]
