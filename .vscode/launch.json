@@ -243,6 +243,18 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb"
+        },
+        {
+            "name": "TemplateMethod",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/TemplateMethod/TemplateMethod",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
         }
 
     ]
