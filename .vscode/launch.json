@@ -255,6 +255,18 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb"
+        },
+        {
+            "name": "Visitor",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Visitor/Visitor",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
         }
 
     ]
