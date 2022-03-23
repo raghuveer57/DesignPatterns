@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// interface for all the devices.
+// implementation interface for all the devices.
 class Device
 {
 protected:

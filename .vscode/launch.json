@@ -8,7 +8,12 @@
             "name": "Singleton",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Singleton/Singleton",
+            "windows": {
+                "program": "${workspaceFolder}/build/Singleton/Debug/Singleton.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/build/Singleton/Singleton"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -20,7 +25,12 @@
             "name": "Prototype",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Prototype/Prototype",
+            "windows": {
+                "program": "${workspaceFolder}/build/Prototype/Debug/Prototype.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/build/Prototype/Prototype"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -32,7 +42,12 @@
             "name": "AbstractFactory",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/AbstractFactory/AbstractFactory",
+            "windows": {
+                "program": "${workspaceFolder}/build/AbstractFactory/Debug/AbstractFactory.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/build/AbstractFactory/AbstractFactory"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -44,7 +59,12 @@
             "name": "Builder",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Builder/Builder",
+            "windows": {
+                "program": "${workspaceFolder}/build/Builder/Debug/Builder.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/build/Builder/Builder"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -56,7 +76,12 @@
             "name": "FactoryMethod",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/FactoryMethod/FactoryMethod",
+            "windows": {
+                "program": "${workspaceFolder}/build/FactoryMethod/Debug/FactoryMethod.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/build/FactoryMethod/FactoryMethod"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -68,7 +93,12 @@
             "name": "Adapter",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Adapter/Adapter",
+            "windows": {
+                "program": "${workspaceFolder}/build/Adapter/Debug/Adapter.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/build/Adapter/Adapter"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -80,7 +110,12 @@
             "name": "Bridge",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Bridge/Bridge",
+            "windows": {
+                "program": "${workspaceFolder}/build/Bridge/Debug/Bridge.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/build/Bridge/Bridge"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -92,7 +127,12 @@
             "name": "Composite",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Composite/Composite",
+            "windows": {
+                "program": "${workspaceFolder}/build/Composite/Debug/Composite.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/build/Composite/Composite"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -104,7 +144,12 @@
             "name": "Decorator",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Decorator/Decorator",
+            "windows": {
+                "program": "${workspaceFolder}/build/Decorator/Debug/Decorator.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/build/Decorator/Decorator"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -116,7 +161,12 @@
             "name": "Facade",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Facade/Facade",
+            "windows": {
+                "program": "${workspaceFolder}/build/Facade/Debug/Facade.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/build/Facade/Facade"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -128,7 +178,12 @@
             "name": "Flyweight",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Flyweight/Flyweight",
+            "windows": {
+                "program": "${workspaceFolder}/build/Flyweight/Debug/Flyweight.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/build/Flyweight/Flyweight"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -140,7 +195,12 @@
             "name": "Proxy",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Proxy/Proxy",
+            "windows": {
+                "program": "${workspaceFolder}/build/Proxy/Debug/Proxy.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/build/Proxy/Proxy"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -152,7 +212,12 @@
             "name": "COR",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/COR/COR",
+            "windows": {
+                "program": "${workspaceFolder}/build/COR/Debug/COR.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/build/COR/COR"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -164,7 +229,12 @@
             "name": "Command",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Command/Command",
+            "windows": {
+                "program": "${workspaceFolder}/build/Command/Debug/Command.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/build/Command/Command"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -176,7 +246,12 @@
             "name": "Iterator",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Iterator/Iterator",
+            "windows": {
+                "program": "${workspaceFolder}/build/Iterator/Debug/Iterator.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/build/Iterator/Iterator"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -188,7 +263,12 @@
             "name": "Mediator",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Mediator/Mediator",
+            "windows": {
+                "program": "${workspaceFolder}/build/Mediator/Debug/Mediator.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/build/Mediator/Mediator"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -200,7 +280,12 @@
             "name": "Memento",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Memento/Memento",
+            "windows": {
+                "program": "${workspaceFolder}/build/Memento/Debug/Memento.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/build/Memento/Memento"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -212,7 +297,12 @@
             "name": "Observer",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Observer/Observer",
+            "windows": {
+                "program": "${workspaceFolder}/build/Observer/Debug/Observer.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/build/Observer/Observer"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -224,7 +314,12 @@
             "name": "State",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/State/State",
+            "windows": {
+                "program": "${workspaceFolder}/build/State/Debug/State.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/build/State/State"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -236,7 +331,12 @@
             "name": "Strategy",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Strategy/Strategy",
+            "windows": {
+                "program": "${workspaceFolder}/build/Strategy/Debug/Strategy.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/build/Strategy/Strategy"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -248,7 +348,12 @@
             "name": "TemplateMethod",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/TemplateMethod/TemplateMethod",
+            "windows": {
+                "program": "${workspaceFolder}/build/TemplateMethod/Debug/TemplateMethod.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/build/TemplateMethod/TemplateMethod"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -260,7 +365,12 @@
             "name": "Visitor",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/Visitor/Visitor",
+            "windows": {
+                "program": "${workspaceFolder}/build/Visitor/Debug/Visitor.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/build/Visitor/Visitor"
+            },
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -268,6 +378,5 @@
             "externalConsole": false,
             "MIMode": "lldb"
         }
-
     ]
 }

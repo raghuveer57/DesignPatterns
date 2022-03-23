@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <list>
+#include <algorithm>
 #include "eventlisteners.h"
 using namespace std;
 

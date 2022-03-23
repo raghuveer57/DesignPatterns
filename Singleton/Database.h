@@ -2,10 +2,11 @@
 
 #include <iostream>
 #include <string>
+#include <mutex>
 
 using namespace std;
 
-std::mutex myMutex;
+mutex myMutex;
 
 class Database
 {
